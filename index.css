@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Noto+Sans&family=Poppins:wght@100&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+  position: fixed;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f6f6f7;
+}
+
+.navbar-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav a {
+  text-decoration: none;
+}
+nav li {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+}
+
+.nav-tem:hover {
+  opacity: 50%;
+}
+
+.logo {
+  font-weight: 500;
+  padding: 15px;
+  margin-left: 10px;
+  text-align: center;
+  color: #6c757d;
+}
+.logo span {
+  display: block;
+  color: #602696;
+}
+.container-hero {
+  width: 80vw;
+  margin: 0 auto;
+  padding-top: 6rem;
+}
+.search {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  margin: 3rem auto;
+}
+.search h3 {
+  font-family: "Noto Sans", sans-serif;
+  color: #6c757d;
+  font-weight: 100;
+  font-size: 0.95rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+.search-box {
+  padding: 17px 17px 17px 51px;
+
+  border: 0px solid;
+  border-radius: 3px;
+  box-shadow: 0 10px 35px #7c7c80be;
+}
+.search-box:focus {
+  outline: none;
+}
+
+table {
+  width: 20vw;
+  margin: 4rem auto;
+
+  border-radius: 12px;
+}
+
+th,
+td {
+  border: #fff solid;
+  border-radius: 12px;
+  width: 10px;
+
+  text-align: left;
+  color: #6c757d;
+  font-size: 1rem;
+}
+td {
+  padding: 1rem;
+}
+
+th {
+  color: #602696;
+  background-color: #34343d09;
+  padding: 2rem 1rem;
+  text-align: left;
+}
+
+tr:nth-child(odd) {
+  background-color: #34343d09;
+}
+
+td:nth-child(1) {
+  background-color: #34343d09;
+  font-weight: 900;
+  text-align: left;
+}
+.green {
+  color: rgb(8, 202, 8);
+}
+.red {
+  color: red;
+}
+.crypto-logo {
+  width: 3rem;
+  height: 3rem;
+  align-items: center;
+}
+.dark-btn {
+  all: unset;
+}
